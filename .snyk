@@ -6,3 +6,14 @@ patch:
   'npm:ms:20151024':
     - humanize-ms > ms:
         patched: '2020-04-08T14:47:34.315Z'
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-07T04:00:04.061Z'
+    - tap > nyc > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-07T04:00:04.061Z'
+    - tap > nyc > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-07T04:00:04.061Z'
+    - tap > nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-07T04:00:04.061Z'
+    - tap > nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-07T04:00:04.061Z'
